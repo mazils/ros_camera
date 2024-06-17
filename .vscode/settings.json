@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/mp4d/ros_camera/src/cam_sub"
+}

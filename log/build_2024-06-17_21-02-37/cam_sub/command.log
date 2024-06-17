@@ -1,0 +1,4 @@
+Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4
+Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4
+Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros_camera/build/cam_sub
+Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros_camera/build/cam_sub

@@ -1,0 +1,156 @@
+[2.379s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cam_sub']
+[2.380s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbaac7190>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['cam_sub'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbaac7190>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffba96caf0>)
+[3.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.952s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.954s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mp4d/ros_camera'
+[3.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.971s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_sub) by extensions ['ignore', 'ignore_ament_install']
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_sub) by extension 'ignore'
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_sub) by extension 'ignore_ament_install'
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_sub) by extensions ['colcon_pkg']
+[4.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_sub) by extension 'colcon_pkg'
+[4.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_sub) by extensions ['colcon_meta']
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_sub) by extension 'colcon_meta'
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_sub) by extensions ['ros']
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_sub) by extension 'ros'
+[4.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_sub' with type 'ros.ament_cmake' and name 'cam_sub'
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[4.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[4.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[4.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[4.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[4.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.453s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'usb_cam' in 'src/usb_cam'
+[4.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.467s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/mp4d/ros_camera/install/usb_cam' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.470s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/mp4d/ros_camera/install/usb_cam' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.484s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mp4d/ros_camera/install
+[4.509s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[4.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.394s] Level 5:colcon.colcon_core.verb:set package 'cam_sub' build argument 'cmake_args' from command line to 'None'
+[5.396s] Level 5:colcon.colcon_core.verb:set package 'cam_sub' build argument 'cmake_target' from command line to 'None'
+[5.397s] Level 5:colcon.colcon_core.verb:set package 'cam_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.397s] Level 5:colcon.colcon_core.verb:set package 'cam_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[5.397s] Level 5:colcon.colcon_core.verb:set package 'cam_sub' build argument 'cmake_clean_first' from command line to 'False'
+[5.398s] Level 5:colcon.colcon_core.verb:set package 'cam_sub' build argument 'cmake_force_configure' from command line to 'False'
+[5.398s] Level 5:colcon.colcon_core.verb:set package 'cam_sub' build argument 'ament_cmake_args' from command line to 'None'
+[5.398s] Level 5:colcon.colcon_core.verb:set package 'cam_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[5.398s] Level 5:colcon.colcon_core.verb:set package 'cam_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.399s] DEBUG:colcon.colcon_core.verb:Building package 'cam_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mp4d/ros_camera/build/cam_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mp4d/ros_camera/install/cam_sub', 'merge_install': False, 'path': '/home/mp4d/ros_camera/src/cam_sub', 'symlink_install': False, 'test_result_base': None}
+[5.401s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.413s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.417s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mp4d/ros_camera/src/cam_sub' with build type 'ament_cmake'
+[5.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mp4d/ros_camera/src/cam_sub'
+[5.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4
+[88.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4
+[88.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros_camera/build/cam_sub
+[88.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_sub)
+[88.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros_camera/build/cam_sub
+[88.622s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub' for CMake module files
+[88.631s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub' for CMake config files
+[88.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_sub', 'cmake_prefix_path')
+[88.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/hook/cmake_prefix_path.ps1'
+[88.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/hook/cmake_prefix_path.dsv'
+[88.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/hook/cmake_prefix_path.sh'
+[88.690s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/lib'
+[88.695s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/bin'
+[88.698s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/lib/pkgconfig/cam_sub.pc'
+[88.704s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/lib/python3.8/site-packages'
+[88.713s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/bin'
+[88.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.ps1'
+[88.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.dsv'
+[88.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.sh'
+[88.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.bash'
+[88.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.zsh'
+[88.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/ros_camera/install/cam_sub/share/colcon-core/packages/cam_sub)
+[89.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_sub)
+[89.122s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub' for CMake module files
+[89.137s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub' for CMake config files
+[89.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_sub', 'cmake_prefix_path')
+[89.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/hook/cmake_prefix_path.ps1'
+[89.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/hook/cmake_prefix_path.dsv'
+[89.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/hook/cmake_prefix_path.sh'
+[89.199s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/lib'
+[89.201s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/bin'
+[89.201s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/lib/pkgconfig/cam_sub.pc'
+[89.205s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/lib/python3.8/site-packages'
+[89.210s] Level 1:colcon.colcon_core.environment:checking '/home/mp4d/ros_camera/install/cam_sub/bin'
+[89.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.ps1'
+[89.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.dsv'
+[89.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.sh'
+[89.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.bash'
+[89.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.zsh'
+[89.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mp4d/ros_camera/install/cam_sub/share/colcon-core/packages/cam_sub)
+[89.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[89.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[89.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[89.279s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[89.387s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[89.389s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[89.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[89.391s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[89.396s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[89.398s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[89.401s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_camera/install/local_setup.ps1'
+[89.416s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mp4d/ros_camera/install/_local_setup_util_ps1.py'
+[89.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_camera/install/setup.ps1'
+[89.469s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_camera/install/local_setup.sh'
+[89.480s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mp4d/ros_camera/install/_local_setup_util_sh.py'
+[89.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_camera/install/setup.sh'
+[89.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_camera/install/local_setup.bash'
+[89.509s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_camera/install/setup.bash'
+[89.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mp4d/ros_camera/install/local_setup.zsh'
+[89.536s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mp4d/ros_camera/install/setup.zsh'

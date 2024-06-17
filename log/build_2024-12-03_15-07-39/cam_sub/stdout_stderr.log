@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target image_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+In file included from [01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:9[m[K:
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/reserved_mem.hpp:51:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   51 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/reserved_mem.hpp:68:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   68 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[100%] [32m[1mLinking CXX executable image_subscriber[0m
+[100%] Built target image_subscriber
+-- Install configuration: ""
+-- Installing: /home/mp4d/ros_camera/install/cam_sub/lib/cam_sub/image_subscriber
+-- Set runtime path of "/home/mp4d/ros_camera/install/cam_sub/lib/cam_sub/image_subscriber" to ""
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/ament_index/resource_index/package_run_dependencies/cam_sub
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/ament_index/resource_index/parent_prefix_path/cam_sub
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/path.sh
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/path.dsv
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.bash
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.sh
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.zsh
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.dsv
+-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.dsv
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/ament_index/resource_index/packages/cam_sub
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/cmake/cam_subConfig.cmake
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/cmake/cam_subConfig-version.cmake
+-- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.xml

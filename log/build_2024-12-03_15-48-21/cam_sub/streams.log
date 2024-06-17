@@ -1,0 +1,67 @@
+[0.172s] Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mp4d/ros_camera/src/cam_sub -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_camera/install/cam_sub
+[2.103s] -- The C compiler identification is GNU 9.4.0
+[3.443s] -- The CXX compiler identification is GNU 9.4.0
+[3.509s] -- Check for working C compiler: /usr/bin/cc
+[5.181s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.198s] -- Detecting C compiler ABI info
+[6.535s] -- Detecting C compiler ABI info - done
+[6.701s] -- Detecting C compile features
+[6.703s] -- Detecting C compile features - done
+[6.723s] -- Check for working CXX compiler: /usr/bin/c++
+[7.762s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.782s] -- Detecting CXX compiler ABI info
+[9.457s] -- Detecting CXX compiler ABI info - done
+[9.693s] -- Detecting CXX compile features
+[9.712s] -- Detecting CXX compile features - done
+[9.762s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[10.289s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[10.291s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.911s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[14.723s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.822s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[15.744s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[16.097s] -- Found FastRTPS: /opt/ros/foxy/include  
+[17.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.796s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[17.831s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.861s] -- Looking for pthread.h
+[19.076s] -- Looking for pthread.h - found
+[19.078s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[20.353s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[20.375s] -- Looking for pthread_create in pthreads
+[21.574s] -- Looking for pthread_create in pthreads - not found
+[21.575s] -- Looking for pthread_create in pthread
+[22.921s] -- Looking for pthread_create in pthread - found
+[22.930s] -- Found Threads: TRUE  
+[25.655s] -- Found OpenCV: /usr (found version "4.2.0") 
+[25.685s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[28.611s] -- Configuring done
+[29.034s] -- Generating done
+[29.056s] -- Build files have been written to: /home/mp4d/ros_camera/build/cam_sub
+[29.365s] Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mp4d/ros_camera/src/cam_sub -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_camera/install/cam_sub
+[29.410s] Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4
+[29.943s] [35m[1mScanning dependencies of target image_subscriber[0m
+[31.358s] [ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[59.093s] In file included from [01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:9[m[K:
+[59.097s] [01m[K/home/mp4d/ros_camera/src/cam_sub/src/reserved_mem.hpp:51:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[59.098s]    51 |     }[01;35m[K;[m[K
+[59.098s]       |      [01;35m[K^[m[K
+[59.099s]       |      [31m[K-[m[K
+[59.100s] [01m[K/home/mp4d/ros_camera/src/cam_sub/src/reserved_mem.hpp:68:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[59.100s]    68 |     }[01;35m[K;[m[K
+[59.101s]       |      [01;35m[K^[m[K
+[59.101s]       |      [31m[K-[m[K
+[60.094s] [01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[60.095s] [01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:124:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kuint32_t*[m[K’ {aka ‘[01m[Kunsigned int*[m[K’} in assignment
+[60.096s]   124 |   u_buff = [01;31m[Karray[m[K;
+[60.097s]       |            [01;31m[K^~~~~[m[K
+[60.097s]       |            [01;31m[K|[m[K
+[60.098s]       |            [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[60.162s] [01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:126:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_array[m[K’ was not declared in this scope; did you mean ‘[01m[Karray[m[K’?
+[60.164s]   126 |   int mem_ret = pmem.transfer(u_buff, P_OFFSET, sizeof([01;31m[Ku_array[m[K));
+[60.165s]       |                                                        [01;31m[K^~~~~~~[m[K
+[60.167s]       |                                                        [32m[Karray[m[K
+[83.441s] make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+[83.479s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+[83.498s] make: *** [Makefile:141: all] Error 2
+[83.516s] Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4

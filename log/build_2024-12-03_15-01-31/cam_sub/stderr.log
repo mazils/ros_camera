@@ -1,0 +1,9 @@
+In file included from [01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:9[m[K:
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/reserved_mem.hpp:51:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   51 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/reserved_mem.hpp:68:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   68 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
