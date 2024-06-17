@@ -1,0 +1,7 @@
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:51:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpixel_value[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   51 |     int [01;35m[Kpixel_value[m[K = img_g.at<uchar>(i, j);
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:44:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |   int64_t [01;35m[Kcount[m[K = 0;
+      |           [01;35m[K^~~~~[m[K
