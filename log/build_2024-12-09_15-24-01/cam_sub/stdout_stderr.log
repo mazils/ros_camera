@@ -1,0 +1,20 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mp4d/ros_camera/build/cam_sub
+[ 33%] [32m[1mLinking CXX executable image_subscriber[0m
+/usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: in function `ImageSubscriber::onImageMsg(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+image_subscriber.cpp:(.text._ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x6b8): undefined reference to `XImage_processing_Initialize'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:210: image_subscriber] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

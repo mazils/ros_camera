@@ -1,0 +1,92 @@
+[0.157s] Invoking command in '/home/mp4d/ros_camera/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mp4d/ros_camera/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_camera/install/usb_cam
+[0.857s] -- The C compiler identification is GNU 9.4.0
+[1.672s] -- The CXX compiler identification is GNU 9.4.0
+[1.714s] -- Check for working C compiler: /usr/bin/cc
+[2.751s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.780s] -- Detecting C compiler ABI info
+[3.881s] -- Detecting C compiler ABI info - done
+[4.003s] -- Detecting C compile features
+[4.006s] -- Detecting C compile features - done
+[4.043s] -- Check for working CXX compiler: /usr/bin/c++
+[5.013s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.032s] -- Detecting CXX compiler ABI info
+[6.120s] -- Detecting CXX compiler ABI info - done
+[6.321s] -- Detecting CXX compile features
+[6.331s] -- Detecting CXX compile features - done
+[6.368s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[6.742s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.750s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.728s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.476s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.734s] -- Found FastRTPS: /opt/ros/foxy/include  
+[12.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.143s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.160s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.171s] -- Looking for pthread.h
+[14.140s] -- Looking for pthread.h - found
+[14.147s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.084s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.085s] -- Looking for pthread_create in pthreads
+[15.644s] -- Looking for pthread_create in pthreads - not found
+[15.645s] -- Looking for pthread_create in pthread
+[16.632s] -- Looking for pthread_create in pthread - found
+[16.657s] -- Found Threads: TRUE  
+[21.061s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[22.570s] -- Found OpenCV: /usr (found version "4.2.0") 
+[22.606s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[22.627s] -- Checking for module 'libavcodec'
+[22.785s] --   Found libavcodec, version 58.54.100
+[23.170s] -- Checking for module 'libavutil'
+[23.314s] --   Found libavutil, version 56.31.100
+[23.693s] -- Checking for module 'libswscale'
+[23.834s] --   Found libswscale, version 5.5.100
+[24.832s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[25.080s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[25.113s] -- Check if compiler accepts -pthread
+[26.232s] -- Check if compiler accepts -pthread - yes
+[26.383s] -- Added test 'copyright' to check source files copyright and LICENSE
+[26.415s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.421s] -- Configured cppcheck include dirs: /home/mp4d/ros_camera/src/usb_cam/include
+[26.423s] -- Configured cppcheck exclude dirs and/or files: 
+[26.453s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[26.458s] -- Configured cpplint exclude dirs and/or files: 
+[26.466s] -- Added test 'flake8' to check Python code syntax and style conventions
+[26.483s] -- Added test 'lint_cmake' to check CMake code style
+[26.495s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[26.528s] -- Added test 'uncrustify' to check C / C++ code style
+[26.532s] -- Configured uncrustify additional arguments: 
+[26.539s] -- Added test 'xmllint' to check XML markup files
+[26.599s] -- Configuring done
+[27.107s] -- Generating done
+[27.128s] -- Build files have been written to: /home/mp4d/ros_camera/build/usb_cam
+[27.397s] Invoked command in '/home/mp4d/ros_camera/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mp4d/ros_camera/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/mp4d/ros_camera/install/usb_cam
+[27.412s] Invoking command in '/home/mp4d/ros_camera/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/usb_cam -- -j4 -l4
+[27.984s] [35m[1mScanning dependencies of target usb_cam_node_exe[0m
+[28.016s] [35m[1mScanning dependencies of target usb_cam[0m
+[28.375s] [  7%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[28.618s] [ 14%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[63.571s] [ 21%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[64.172s] [ 28%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[66.945s] [ 28%] Built target usb_cam_node_exe
+[67.836s] [ 28%] Built target usb_cam
+[67.955s] [35m[1mScanning dependencies of target gtest_main[0m
+[68.203s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[96.781s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[97.138s] [ 42%] Built target gtest_main
+[97.260s] [35m[1mScanning dependencies of target usb_cam_node[0m
+[98.367s] [ 50%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o[0m
+[182.714s] [ 57%] [32m[1mLinking CXX shared library libusb_cam_node.so[0m
+[191.343s] [ 57%] Built target usb_cam_node
+[191.481s] [35m[1mScanning dependencies of target gtest[0m
+[191.740s] [ 64%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[227.630s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[228.298s] [ 71%] Built target gtest
+[228.508s] [35m[1mScanning dependencies of target test_pixel_formats[0m
+[228.521s] [35m[1mScanning dependencies of target test_usb_cam_utils[0m
+[228.645s] [ 78%] [32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o[0m
+[229.138s] [ 85%] [32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o[0m
+[254.230s] [ 92%] [32m[1mLinking CXX executable test_usb_cam_utils[0m
+[256.874s] [ 92%] Built target test_usb_cam_utils
+[262.357s] [100%] [32m[1mLinking CXX executable test_pixel_formats[0m
+[264.637s] [100%] Built target test_pixel_formats

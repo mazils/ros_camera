@@ -7,22 +7,23 @@
 #include <vector>
 #include <iostream>
 #include "reserved_mem.hpp"
+#include "ximage_processing.h"
 
 
-#define LENGTH 1800000
+#define BUFFER_LENGTH 100
 
 #define P_START 0x70000000
 #define P_OFFSET 0
 
 class ImageSubscriber : public rclcpp::Node
 {
-	Reserved_Mem pmem;
 	uint32_t *u_buff;
 	uint32_t *read_mem;
 	rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr camera_subscription_;
 	rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr mem_pub_;
 
 	rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr cam_pub_red_res;
+	Reserved_Mem res_mem;
 
 	public:
 
@@ -38,27 +39,30 @@ class ImageSubscriber : public rclcpp::Node
 		cam_pub_red_res = this->create_publisher<sensor_msgs::msg::Image>("/image_raw_scaled_down",10);
 
 		mem_pub_ = this->create_publisher<std_msgs::msg::Int32MultiArray>("/memory", 10);
-		allocate_memory();
+		//allocate_memory();
+
+		res_mem=Reserved_Mem();
+    	int buffer[BUFFER_LENGTH];
 	}
-	 ~ImageSubscriber()
-    {
-        if (u_buff != nullptr)
-        {
-            free(u_buff);
-        }
-    }
+	//  ~ImageSubscriber()
+    // {
+    //     if (u_buff != nullptr)
+    //     {
+    //         free(u_buff);
+    //     }
+    // }
 
 private:
-	void allocate_memory(){
-		u_buff = (uint32_t *)malloc(LENGTH);
-		if (u_buff == NULL)
-		{
-			RCLCPP_INFO(this->get_logger(), "could not allocate user buffer ");
-		}
-		else{
-			RCLCPP_INFO(this->get_logger(), "mem is allocated");
-		}
-	}
+	// void allocate_memory(){
+	// 	u_buff = (uint32_t *)malloc(LENGTH);
+	// 	if (u_buff == NULL)
+	// 	{
+	// 		RCLCPP_INFO(this->get_logger(), "could not allocate user buffer ");
+	// 	}
+	// 	else{
+	// 		RCLCPP_INFO(this->get_logger(), "mem is allocated");
+	// 	}
+	// }
 	
 
 	void onImageMsg(const sensor_msgs::msg::Image::SharedPtr msg)
@@ -79,12 +83,10 @@ private:
 	//////////////image resising////////////////////
 
 		cv::Mat img_resized;
-		cv::resize(img_g, img_resized, cv::Size(28, 28), 0, 0, cv::INTER_AREA);
+		cv::resize(img_g, img_resized, cv::Size(10, 10), 0, 0, cv::INTER_AREA);
 		// Optional: Normalize pixel values to 0-255
 		img_resized.convertTo(img_resized, CV_8U);
 
-		// Optional: Apply threshold for binary image
-		// cv::threshold(img_resized, img_resized, 128, 255, cv::THRESH_BINARY);
 
 //////////////////////////////////////////////////
 
@@ -115,26 +117,49 @@ private:
 				array.insert(array.end(), img_resized.ptr<uchar>(i), img_resized.ptr<uchar>(i)+img_resized.cols);
 			}
 		}
-		// std::vector<int> int_array(array.begin(), array.end());
 ///////////////////////////////////////////////////////
 		
 		uint32_t arr[array.size()];
 
     	// Copy elements from vector to array
     	std::copy(array.begin(), array.end(), arr);
-		// uint32_t u_array[] = {10};
-		// u_buff = u_array;
-		u_buff = arr;
-		//WORKS
-		int mem_ret = pmem.transfer(u_buff, P_OFFSET, sizeof(array));
-	
 		
+		uint32_t u_array[BUFFER_LENGTH];
+		for (int i = 0; i < 100; i++) {
+        u_array[i] = i + 100; 
+    	}
+		
+		u_buff = u_array;
+		// u_buff = arr;
+		//WORKS
+		int mem_ret = res_mem.transfer(u_buff, P_OFFSET, sizeof(array));
+	
+		XImage_processing xip;
+    	int status=XImage_processing_Initialize(&xip,"image_processing");
+    	if (status!= XST_SUCCESS){
+        	std::cout << "Cannot Init IP" << std::endl;
+        	exit(1);
+    	}
 
-		// pmem.gather(read_mem,P_OFFSET, LENGTH);
+    	while(!XImage_processing_IsReady(&xip)){}
+
+    	XImage_processing_Set_in_r(&xip,0x70000000);
+    	XImage_processing_Set_out_r(&xip,0x70000000+BUFFER_LENGTH*sizeof(uint32_t));
+    	XImage_processing_Start(&xip);
+
+    	while(!XImage_processing_IsDone(&xip)){}
+		int buffer[BUFFER_LENGTH];
+    	res_mem.gather<int>(buffer,BUFFER_LENGTH,BUFFER_LENGTH);
+
+		for(int i=0;i<100;i++){
+        // std::cout << std::to_string(i) << ": "<<std::to_string(buffer[i]) << std::endl;
+			RCLCPP_INFO(this->get_logger(), "memory read  %d",buffer[i]);
+		}
+		// std::cout << "I'd say it works" << std::endl;
 
 		// message.data = *read_mem;
 		// mem_pub_->publish(message);
-		RCLCPP_INFO(this->get_logger(), "memory written  %d",mem_ret);
+		// RCLCPP_INFO(this->get_logger(), "memory written  %d",mem_ret);
 
 
 

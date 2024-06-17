@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.002202] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.002845] (cam_sub) JobQueued: {'identifier': 'cam_sub', 'dependencies': OrderedDict()}
+[0.004190] (cam_sub) JobStarted: {'identifier': 'cam_sub'}
+[0.073818] (cam_sub) JobProgress: {'identifier': 'cam_sub', 'progress': 'cmake'}
+[0.079034] (cam_sub) JobProgress: {'identifier': 'cam_sub', 'progress': 'build'}
+[0.085058] (cam_sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mp4d/ros_camera/build/cam_sub', '--', '-j4', '-l4'], 'cwd': '/home/mp4d/ros_camera/build/cam_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mp4d'), ('SSH_CLIENT', '10.42.0.1 42902 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/mp4d/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mp4d'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ff1d1778-22f1-4bc1-a456-02bd08feb4d0.sock'), ('ROS_PYTHON_VERSION', '3'), ('XILINX_XRT', '/usr'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mp4d/ros_camera/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mp4d'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/mp4d/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mp4d/ros_camera/build/cam_sub'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 42902 10.42.0.93 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100559] (-) TimerEvent: {}
+[0.211823] (-) TimerEvent: {}
+[0.295442] (cam_sub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.312252] (-) TimerEvent: {}
+[0.414243] (-) TimerEvent: {}
+[0.493130] (cam_sub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.514643] (-) TimerEvent: {}
+[0.616597] (-) TimerEvent: {}
+[0.718142] (-) TimerEvent: {}
+[0.819739] (-) TimerEvent: {}
+[0.921636] (-) TimerEvent: {}
+[1.023767] (-) TimerEvent: {}
+[1.125701] (-) TimerEvent: {}
+[1.227375] (-) TimerEvent: {}
+[1.329081] (-) TimerEvent: {}
+[1.430849] (-) TimerEvent: {}
+[1.532424] (-) TimerEvent: {}
+[1.634071] (-) TimerEvent: {}
+[1.735742] (-) TimerEvent: {}
+[1.837494] (-) TimerEvent: {}
+[1.939454] (-) TimerEvent: {}
+[2.039809] (cam_sub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.041292] (-) TimerEvent: {}
+[2.142615] (-) TimerEvent: {}
+[2.244392] (-) TimerEvent: {}
+[2.247994] (cam_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.274754] (cam_sub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.344762] (-) TimerEvent: {}
+[2.446803] (-) TimerEvent: {}
+[2.548971] (-) TimerEvent: {}
+[2.650888] (-) TimerEvent: {}
+[2.752792] (-) TimerEvent: {}
+[2.854658] (-) TimerEvent: {}
+[2.956474] (-) TimerEvent: {}
+[2.995298] (cam_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.056820] (-) TimerEvent: {}
+[3.158581] (-) TimerEvent: {}
+[3.260414] (-) TimerEvent: {}
+[3.362713] (-) TimerEvent: {}
+[3.406357] (cam_sub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.417391] (cam_sub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.463143] (-) TimerEvent: {}
+[3.565116] (-) TimerEvent: {}
+[3.667155] (-) TimerEvent: {}
+[3.769050] (-) TimerEvent: {}
+[3.870819] (-) TimerEvent: {}
+[3.972680] (-) TimerEvent: {}
+[4.074379] (-) TimerEvent: {}
+[4.176052] (-) TimerEvent: {}
+[4.277753] (-) TimerEvent: {}
+[4.379416] (-) TimerEvent: {}
+[4.481103] (-) TimerEvent: {}
+[4.582833] (-) TimerEvent: {}
+[4.684502] (-) TimerEvent: {}
+[4.696764] (cam_sub) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.784879] (-) TimerEvent: {}
+[4.886558] (-) TimerEvent: {}
+[4.988222] (-) TimerEvent: {}
+[5.089935] (-) TimerEvent: {}
+[5.191599] (-) TimerEvent: {}
+[5.293294] (-) TimerEvent: {}
+[5.395014] (-) TimerEvent: {}
+[5.496664] (-) TimerEvent: {}
+[5.598329] (-) TimerEvent: {}
+[5.700827] (-) TimerEvent: {}
+[5.763880] (cam_sub) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[5.801195] (-) TimerEvent: {}
+[5.903528] (-) TimerEvent: {}
+[6.005309] (-) TimerEvent: {}
+[6.107009] (-) TimerEvent: {}
+[6.208918] (-) TimerEvent: {}
+[6.310663] (-) TimerEvent: {}
+[6.412546] (-) TimerEvent: {}
+[6.491363] (cam_sub) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.498654] (cam_sub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:28 (add_executable):\n'}
+[6.500387] (cam_sub) StderrLine: {'line': b'  Cannot find source file:\n'}
+[6.501104] (cam_sub) StderrLine: {'line': b'\n'}
+[6.501808] (cam_sub) StderrLine: {'line': b'    src/ximage_processing_hw.c\n'}
+[6.502465] (cam_sub) StderrLine: {'line': b'\n'}
+[6.503057] (cam_sub) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[6.503591] (cam_sub) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[6.504111] (cam_sub) StderrLine: {'line': b'\n'}
+[6.504627] (cam_sub) StderrLine: {'line': b'\n'}
+[6.511715] (cam_sub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:28 (add_executable):\n'}
+[6.512969] (-) TimerEvent: {}
+[6.513885] (cam_sub) StderrLine: {'line': b'  No SOURCES given to target: image_subscriber\n'}
+[6.514677] (cam_sub) StderrLine: {'line': b'\n'}
+[6.515242] (cam_sub) StderrLine: {'line': b'\n'}
+[6.515761] (cam_sub) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[6.587237] (cam_sub) StderrLine: {'line': b'make: *** [Makefile:296: cmake_check_build_system] Error 1\n'}
+[6.599615] (cam_sub) CommandEnded: {'returncode': 2}
+[6.614113] (-) TimerEvent: {}
+[6.716982] (-) TimerEvent: {}
+[6.819864] (-) TimerEvent: {}
+[6.822825] (cam_sub) JobEnded: {'identifier': 'cam_sub', 'rc': 2}
+[6.836228] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[0.117s] Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4
+[0.531s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.777s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.314s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.649s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.089s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.104s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.416s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.515s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[7.259s] -- Configuring done
+[7.429s] -- Generating done
+[7.440s] -- Build files have been written to: /home/mp4d/ros_camera/build/cam_sub
+[7.867s] [ 33%] [32m[1mLinking CXX executable image_subscriber[0m
+[17.842s] /usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: in function `ImageSubscriber::onImageMsg(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+[17.843s] image_subscriber.cpp:(.text._ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x6b8): undefined reference to `XImage_processing_Initialize'
+[17.845s] collect2: error: ld returned 1 exit status
+[17.854s] make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:210: image_subscriber] Error 1
+[17.856s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+[17.857s] make: *** [Makefile:141: all] Error 2
+[17.870s] Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4

@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.002101] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.002740] (cam_sub) JobQueued: {'identifier': 'cam_sub', 'dependencies': OrderedDict()}
+[0.004125] (cam_sub) JobStarted: {'identifier': 'cam_sub'}
+[0.070850] (cam_sub) JobProgress: {'identifier': 'cam_sub', 'progress': 'cmake'}
+[0.078011] (cam_sub) JobProgress: {'identifier': 'cam_sub', 'progress': 'build'}
+[0.085369] (cam_sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mp4d/ros_camera/build/cam_sub', '--', '-j4', '-l4'], 'cwd': '/home/mp4d/ros_camera/build/cam_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mp4d'), ('SSH_CLIENT', '10.42.0.1 42902 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/mp4d/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mp4d'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ff1d1778-22f1-4bc1-a456-02bd08feb4d0.sock'), ('ROS_PYTHON_VERSION', '3'), ('XILINX_XRT', '/usr'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mp4d/ros_camera/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mp4d'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/mp4d/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mp4d/ros_camera/build/cam_sub'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 42902 10.42.0.93 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.102911] (-) TimerEvent: {}
+[0.213723] (-) TimerEvent: {}
+[0.287713] (cam_sub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.314315] (-) TimerEvent: {}
+[0.416429] (-) TimerEvent: {}
+[0.518314] (-) TimerEvent: {}
+[0.551296] (cam_sub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.618565] (-) TimerEvent: {}
+[0.720449] (-) TimerEvent: {}
+[0.822351] (-) TimerEvent: {}
+[0.924425] (-) TimerEvent: {}
+[1.026534] (-) TimerEvent: {}
+[1.128538] (-) TimerEvent: {}
+[1.230444] (-) TimerEvent: {}
+[1.332080] (-) TimerEvent: {}
+[1.433604] (-) TimerEvent: {}
+[1.535277] (-) TimerEvent: {}
+[1.637072] (-) TimerEvent: {}
+[1.738585] (-) TimerEvent: {}
+[1.840123] (-) TimerEvent: {}
+[1.941716] (-) TimerEvent: {}
+[2.043451] (-) TimerEvent: {}
+[2.145398] (-) TimerEvent: {}
+[2.214408] (cam_sub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.245731] (-) TimerEvent: {}
+[2.347506] (-) TimerEvent: {}
+[2.422593] (cam_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.447972] (cam_sub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.449298] (-) TimerEvent: {}
+[2.551615] (-) TimerEvent: {}
+[2.653459] (-) TimerEvent: {}
+[2.755470] (-) TimerEvent: {}
+[2.857214] (-) TimerEvent: {}
+[2.959122] (-) TimerEvent: {}
+[3.060869] (-) TimerEvent: {}
+[3.162622] (-) TimerEvent: {}
+[3.182108] (cam_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.263017] (-) TimerEvent: {}
+[3.364756] (-) TimerEvent: {}
+[3.466970] (-) TimerEvent: {}
+[3.568892] (-) TimerEvent: {}
+[3.616250] (cam_sub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.629472] (cam_sub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.669306] (-) TimerEvent: {}
+[3.771124] (-) TimerEvent: {}
+[3.873607] (-) TimerEvent: {}
+[3.975332] (-) TimerEvent: {}
+[4.077103] (-) TimerEvent: {}
+[4.179133] (-) TimerEvent: {}
+[4.280801] (-) TimerEvent: {}
+[4.382506] (-) TimerEvent: {}
+[4.484232] (-) TimerEvent: {}
+[4.585913] (-) TimerEvent: {}
+[4.687593] (-) TimerEvent: {}
+[4.789366] (-) TimerEvent: {}
+[4.880732] (cam_sub) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.889534] (-) TimerEvent: {}
+[4.991017] (-) TimerEvent: {}
+[5.092764] (-) TimerEvent: {}
+[5.194464] (-) TimerEvent: {}
+[5.296156] (-) TimerEvent: {}
+[5.397808] (-) TimerEvent: {}
+[5.499492] (-) TimerEvent: {}
+[5.601261] (-) TimerEvent: {}
+[5.703133] (-) TimerEvent: {}
+[5.804948] (-) TimerEvent: {}
+[5.908156] (-) TimerEvent: {}
+[5.925877] (cam_sub) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[6.008521] (-) TimerEvent: {}
+[6.111179] (-) TimerEvent: {}
+[6.214243] (-) TimerEvent: {}
+[6.315971] (-) TimerEvent: {}
+[6.417472] (-) TimerEvent: {}
+[6.522141] (-) TimerEvent: {}
+[6.624340] (-) TimerEvent: {}
+[6.675811] (cam_sub) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.724650] (-) TimerEvent: {}
+[6.823475] (cam_sub) StdoutLine: {'line': b'-- Generating done\n'}
+[6.825142] (-) TimerEvent: {}
+[6.837047] (cam_sub) StdoutLine: {'line': b'-- Build files have been written to: /home/mp4d/ros_camera/build/cam_sub\n'}
+[6.925604] (-) TimerEvent: {}
+[7.027567] (-) TimerEvent: {}
+[7.076243] (cam_sub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_subscriber\x1b[0m\n'}
+[7.127974] (-) TimerEvent: {}
+[7.230099] (-) TimerEvent: {}
+[7.274996] (cam_sub) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/image_subscriber.dir/src/ximage_processing_sinit.c.o\x1b[0m\n'}
+[7.290519] (cam_sub) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/image_subscriber.dir/src/ximage_processing_linux.c.o\x1b[0m\n'}
+[7.331441] (-) TimerEvent: {}
+[7.433766] (-) TimerEvent: {}
+[7.535424] (-) TimerEvent: {}
+[7.637145] (-) TimerEvent: {}
+[7.739142] (-) TimerEvent: {}
+[7.841315] (-) TimerEvent: {}
+[7.943166] (-) TimerEvent: {}
+[8.001283] (cam_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_camera/src/cam_sub/src/ximage_processing_sinit.c:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids an empty translation unit [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[8.003320] (cam_sub) StderrLine: {'line': b'   43 | \n'}
+[8.004130] (cam_sub) StderrLine: {'line': b'      | \n'}
+[8.043650] (-) TimerEvent: {}
+[8.145894] (-) TimerEvent: {}
+[8.148047] (cam_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_camera/src/cam_sub/src/ximage_processing_linux.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuio_info_read_map_addr\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.149643] (cam_sub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mp4d/ros_camera/src/cam_sub/src/ximage_processing_linux.c:68:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%x\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int *\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Ku64 *\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int *\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[8.150522] (cam_sub) StderrLine: {'line': b'   68 |     ret = fscanf(fp, "0x\x1b[01;35m\x1b[K%x\x1b[m\x1b[K", \x1b[32m\x1b[K&info->maps[n].addr\x1b[m\x1b[K);\n'}
+[8.151313] (cam_sub) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.151949] (cam_sub) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[8.152527] (cam_sub) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[Ku64 * {aka long unsigned int *}\x1b[m\x1b[K\n'}
+[8.153116] (cam_sub) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[Kunsigned int *\x1b[m\x1b[K\n'}
+[8.153685] (cam_sub) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%lx\x1b[m\x1b[K\n'}
+[8.246327] (-) TimerEvent: {}
+[8.348422] (-) TimerEvent: {}
+[8.450260] (-) TimerEvent: {}
+[8.499442] (cam_sub) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable image_subscriber\x1b[0m\n'}
+[8.550674] (-) TimerEvent: {}
+[8.652969] (-) TimerEvent: {}
+[8.755344] (-) TimerEvent: {}
+[8.857231] (-) TimerEvent: {}
+[8.959713] (-) TimerEvent: {}
+[9.062033] (-) TimerEvent: {}
+[9.164546] (-) TimerEvent: {}
+[9.266614] (-) TimerEvent: {}
+[9.370303] (-) TimerEvent: {}
+[9.473292] (-) TimerEvent: {}
+[9.575803] (-) TimerEvent: {}
+[9.677866] (-) TimerEvent: {}
+[9.780032] (-) TimerEvent: {}
+[9.882562] (-) TimerEvent: {}
+[9.985152] (-) TimerEvent: {}
+[10.087747] (-) TimerEvent: {}
+[10.190041] (-) TimerEvent: {}
+[10.292375] (-) TimerEvent: {}
+[10.394668] (-) TimerEvent: {}
+[10.497141] (-) TimerEvent: {}
+[10.599483] (-) TimerEvent: {}
+[10.701788] (-) TimerEvent: {}
+[10.804116] (-) TimerEvent: {}
+[10.906324] (-) TimerEvent: {}
+[11.008345] (-) TimerEvent: {}
+[11.110544] (-) TimerEvent: {}
+[11.212814] (-) TimerEvent: {}
+[11.314909] (-) TimerEvent: {}
+[11.416982] (-) TimerEvent: {}
+[11.522118] (-) TimerEvent: {}
+[11.624401] (-) TimerEvent: {}
+[11.726506] (-) TimerEvent: {}
+[11.828957] (-) TimerEvent: {}
+[11.931175] (-) TimerEvent: {}
+[12.033216] (-) TimerEvent: {}
+[12.135127] (-) TimerEvent: {}
+[12.237313] (-) TimerEvent: {}
+[12.339776] (-) TimerEvent: {}
+[12.442021] (-) TimerEvent: {}
+[12.544291] (-) TimerEvent: {}
+[12.646501] (-) TimerEvent: {}
+[12.748580] (-) TimerEvent: {}
+[12.850913] (-) TimerEvent: {}
+[12.953067] (-) TimerEvent: {}
+[13.055184] (-) TimerEvent: {}
+[13.158172] (-) TimerEvent: {}
+[13.261218] (-) TimerEvent: {}
+[13.363189] (-) TimerEvent: {}
+[13.464957] (-) TimerEvent: {}
+[13.566744] (-) TimerEvent: {}
+[13.668594] (-) TimerEvent: {}
+[13.770299] (-) TimerEvent: {}
+[13.872175] (-) TimerEvent: {}
+[13.973914] (-) TimerEvent: {}
+[14.075800] (-) TimerEvent: {}
+[14.177564] (-) TimerEvent: {}
+[14.279397] (-) TimerEvent: {}
+[14.381160] (-) TimerEvent: {}
+[14.482948] (-) TimerEvent: {}
+[14.584722] (-) TimerEvent: {}
+[14.686597] (-) TimerEvent: {}
+[14.788681] (-) TimerEvent: {}
+[14.890688] (-) TimerEvent: {}
+[14.992490] (-) TimerEvent: {}
+[15.094241] (-) TimerEvent: {}
+[15.196001] (-) TimerEvent: {}
+[15.297747] (-) TimerEvent: {}
+[15.399528] (-) TimerEvent: {}
+[15.501295] (-) TimerEvent: {}
+[15.603294] (-) TimerEvent: {}
+[15.705131] (-) TimerEvent: {}
+[15.806898] (-) TimerEvent: {}
+[15.908633] (-) TimerEvent: {}
+[16.010372] (-) TimerEvent: {}
+[16.112126] (-) TimerEvent: {}
+[16.213898] (-) TimerEvent: {}
+[16.315715] (-) TimerEvent: {}
+[16.417460] (-) TimerEvent: {}
+[16.519209] (-) TimerEvent: {}
+[16.621144] (-) TimerEvent: {}
+[16.722845] (-) TimerEvent: {}
+[16.824362] (-) TimerEvent: {}
+[16.925925] (-) TimerEvent: {}
+[17.027655] (-) TimerEvent: {}
+[17.129361] (-) TimerEvent: {}
+[17.232005] (-) TimerEvent: {}
+[17.333716] (-) TimerEvent: {}
+[17.430418] (cam_sub) StdoutLine: {'line': b'[100%] Built target image_subscriber\n'}
+[17.433830] (-) TimerEvent: {}
+[17.507024] (cam_sub) CommandEnded: {'returncode': 0}
+[17.534241] (-) TimerEvent: {}
+[17.636144] (-) TimerEvent: {}
+[17.684667] (cam_sub) JobProgress: {'identifier': 'cam_sub', 'progress': 'install'}
+[17.736781] (-) TimerEvent: {}
+[17.765228] (cam_sub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mp4d/ros_camera/build/cam_sub'], 'cwd': '/home/mp4d/ros_camera/build/cam_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mp4d'), ('SSH_CLIENT', '10.42.0.1 42902 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/mp4d/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mp4d'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ff1d1778-22f1-4bc1-a456-02bd08feb4d0.sock'), ('ROS_PYTHON_VERSION', '3'), ('XILINX_XRT', '/usr'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mp4d/ros_camera/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mp4d'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/mp4d/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mp4d/ros_camera/build/cam_sub'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 42902 10.42.0.93 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[17.837398] (-) TimerEvent: {}
+[17.842249] (cam_sub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.849858] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/lib/cam_sub/image_subscriber\n'}
+[17.860643] (cam_sub) StdoutLine: {'line': b'-- Set runtime path of "/home/mp4d/ros_camera/install/cam_sub/lib/cam_sub/image_subscriber" to ""\n'}
+[17.866023] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/ament_index/resource_index/package_run_dependencies/cam_sub\n'}
+[17.869751] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/ament_index/resource_index/parent_prefix_path/cam_sub\n'}
+[17.873131] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/ament_prefix_path.sh\n'}
+[17.877424] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/ament_prefix_path.dsv\n'}
+[17.881191] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/path.sh\n'}
+[17.884482] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/path.dsv\n'}
+[17.888870] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.bash\n'}
+[17.898862] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.sh\n'}
+[17.903505] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.zsh\n'}
+[17.909654] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.dsv\n'}
+[17.914894] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.dsv\n'}
+[17.918969] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/ament_index/resource_index/packages/cam_sub\n'}
+[17.923024] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/cmake/cam_subConfig.cmake\n'}
+[17.928140] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/cmake/cam_subConfig-version.cmake\n'}
+[17.930890] (cam_sub) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.xml\n'}
+[17.940257] (-) TimerEvent: {}
+[17.942328] (cam_sub) CommandEnded: {'returncode': 0}
+[18.040791] (-) TimerEvent: {}
+[18.144219] (-) TimerEvent: {}
+[18.246492] (-) TimerEvent: {}
+[18.259954] (cam_sub) JobEnded: {'identifier': 'cam_sub', 'rc': 0}
+[18.276855] (-) EventReactorShutdown: {}

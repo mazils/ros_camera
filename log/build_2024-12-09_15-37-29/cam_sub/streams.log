@@ -1,0 +1,22 @@
+[0.175s] Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4
+[1.211s] [100%] Built target image_subscriber
+[1.320s] Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4
+[1.934s] Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros_camera/build/cam_sub
+[2.043s] -- Install configuration: ""
+[2.045s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/lib/cam_sub/image_subscriber
+[2.048s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/ament_index/resource_index/package_run_dependencies/cam_sub
+[2.049s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/ament_index/resource_index/parent_prefix_path/cam_sub
+[2.051s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/ament_prefix_path.sh
+[2.052s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/ament_prefix_path.dsv
+[2.053s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/path.sh
+[2.064s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/environment/path.dsv
+[2.065s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.bash
+[2.067s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.sh
+[2.068s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.zsh
+[2.069s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/local_setup.dsv
+[2.069s] -- Installing: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.dsv
+[2.070s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/ament_index/resource_index/packages/cam_sub
+[2.071s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/cmake/cam_subConfig.cmake
+[2.071s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/cmake/cam_subConfig-version.cmake
+[2.072s] -- Up-to-date: /home/mp4d/ros_camera/install/cam_sub/share/cam_sub/package.xml
+[2.093s] Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros_camera/build/cam_sub

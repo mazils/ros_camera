@@ -1,0 +1,65 @@
+[0.173s] Invoking command in '/home/mp4d/ros_camera/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/usb_cam -- -j4 -l4
+[1.009s] [ 14%] Built target gtest_main
+[1.047s] [ 28%] Built target gtest
+[1.184s] [ 42%] Built target usb_cam
+[1.221s] [ 57%] Built target usb_cam_node_exe
+[1.593s] [ 71%] Built target test_usb_cam_utils
+[1.713s] [ 85%] Built target test_pixel_formats
+[1.785s] [100%] Built target usb_cam_node
+[1.916s] Invoked command in '/home/mp4d/ros_camera/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/usb_cam -- -j4 -l4
+[2.214s] Invoking command in '/home/mp4d/ros_camera/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros_camera/build/usb_cam
+[2.294s] -- Install configuration: ""
+[2.295s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/environment/library_path.sh
+[2.301s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[2.307s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[2.327s] -- Set runtime path of "/home/mp4d/ros_camera/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""
+[2.330s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/lib/usb_cam/show_image.py
+[2.332s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/lib/libusb_cam.so
+[2.369s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/lib/libusb_cam_node.so
+[2.541s] -- Set runtime path of "/home/mp4d/ros_camera/install/usb_cam/lib/libusb_cam_node.so" to ""
+[2.542s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include
+[2.543s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam
+[2.547s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats
+[2.548s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[2.556s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[2.557s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats/m420.hpp
+[2.559s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats/utils.hpp
+[2.560s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[2.562s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats/mono.hpp
+[2.563s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[2.565s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[2.578s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[2.591s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/conversions.hpp
+[2.593s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[2.594s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/constants.hpp
+[2.595s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/utils.hpp
+[2.596s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/include/usb_cam/usb_cam.hpp
+[2.597s] -- Up-to-date: /home/mp4d/ros_camera/install/usb_cam/lib/libusb_cam_node.so
+[2.599s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/launch
+[2.599s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[2.600s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/launch/__init__.py
+[2.601s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/launch/camera_config.py
+[2.615s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/config
+[2.618s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/config/params_2.yaml
+[2.620s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[2.621s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/config/params_1.yaml
+[2.622s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[2.622s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[2.623s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[2.624s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[2.624s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/environment/path.sh
+[2.625s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/environment/path.dsv
+[2.629s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/local_setup.bash
+[2.633s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/local_setup.sh
+[2.639s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/local_setup.zsh
+[2.641s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/local_setup.dsv
+[2.646s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/package.dsv
+[2.649s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[2.653s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[2.658s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[2.660s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.664s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.669s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[2.671s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[2.674s] -- Installing: /home/mp4d/ros_camera/install/usb_cam/share/usb_cam/package.xml
+[2.701s] Invoked command in '/home/mp4d/ros_camera/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros_camera/build/usb_cam

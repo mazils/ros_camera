@@ -1,0 +1,28 @@
+[0.087s] Invoking command in '/home/mp4d/ros_camera/build/cam_sub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4
+[0.291s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.489s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.035s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.270s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.402s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.413s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.692s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.761s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[6.487s] -- Configuring done
+[6.494s] CMake Error at CMakeLists.txt:28 (add_executable):
+[6.495s]   Cannot find source file:
+[6.496s] 
+[6.497s]     src/ximage_processing_hw.c
+[6.497s] 
+[6.498s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[6.499s]   .hpp .hxx .in .txx
+[6.499s] 
+[6.500s] 
+[6.507s] CMake Error at CMakeLists.txt:28 (add_executable):
+[6.509s]   No SOURCES given to target: image_subscriber
+[6.510s] 
+[6.510s] 
+[6.511s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[6.583s] make: *** [Makefile:296: cmake_check_build_system] Error 1
+[6.596s] Invoked command in '/home/mp4d/ros_camera/build/cam_sub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros_camera/build/cam_sub -- -j4 -l4

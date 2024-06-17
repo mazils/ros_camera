@@ -1,0 +1,20 @@
+In file included from [01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:9[m[K:
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/reserved_mem.hpp:51:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   51 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/reserved_mem.hpp:68:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   68 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:[m[K In constructor ‘[01m[KImageSubscriber::ImageSubscriber()[m[K’:
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:45:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbuffer[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   45 |      int [01;35m[Kbuffer[m[K[BUFFER_LENGTH];
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:122:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Karr[m[K’ [[01;35m[K-Wvla[m[K]
+  122 |   uint32_t [01;35m[Karr[m[K[array.size()];
+      |            [01;35m[K^~~[m[K
+[01m[K/home/mp4d/ros_camera/src/cam_sub/src/image_subscriber.cpp:135:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmem_ret[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  135 |   int [01;35m[Kmem_ret[m[K = res_mem.transfer(u_buff, P_OFFSET, sizeof(array));
+      |       [01;35m[K^~~~~~~[m[K
